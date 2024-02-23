@@ -1,5 +1,7 @@
+import co.edu.uptc.project2_progra2.controller.showProcessTxt;
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        showProcessTxt showProcessTxt = new showProcessTxt();
+        showProcessTxt.showTxt();
     }
 }
